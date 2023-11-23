@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    
+}
+
+header {
+    background-color: rgb(173, 171, 171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    font-family: 'Vina Sans', sans-serif;
+  }
+
+  .logo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  /*MAIN INDEX*/
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .explicacionSobreWeb {
+    flex: 1;
+    /* Estilos adicionales para ocupar toda la pantalla */
+    height: 100vh;
+    margin: 2px;
+    padding: 2px;
+    font-size: 26px;
+  }
+  
+  .imagenesDeProgramacion {
+    display: flex;
+  }
+  
+  .imagenesDeProgramacion img {
+    flex: 1;
+    /* Estilos adicionales para ocupar toda la pantalla */
+    width: 40vw;
+    height: 80vh;
+    object-fit: cover;
+    border: 2px solid black;
+  }
+  /*FOOTER*/
+  footer {
+    background-color: rgb(173, 171, 171);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid black;
+  }
+  
+  .redes a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+  }
+  .redes img{
+    width: 40px;
+    height: auto;
+  }
+  .boton{
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+  }
